@@ -1,0 +1,32 @@
+# > 基于抓包样本整理，更新时间：2026-03-11
+# > 规则格式参考：https://raw.githubusercontent.com/ddgksf2013/Filter/master/NeteaseMusic.list
+
+# 明确广告请求/素材/竞价域名
+HOST,adservice.sigmob.cn,天天跳绳广告
+HOST,api-access.pangolin-sdk-toutiao.com,天天跳绳广告
+HOST,api-access.pangolin-sdk-toutiao1.com,天天跳绳广告
+HOST,api-htp.beizi.biz,天天跳绳广告
+HOST,cdn.1rtb.com,天天跳绳广告
+HOST,mobads-logs.baidu.com,天天跳绳广告
+HOST,mobads-pre-config.cdn.bcebos.com,天天跳绳广告
+HOST,mobads.baidu.com,天天跳绳广告
+HOST,n.sigmob.cn,天天跳绳广告
+HOST,open.e.kuaishou.com,天天跳绳广告
+HOST,p66-ad.adkwai.com,天天跳绳广告
+HOST,pgdt.ugdtimg.com,天天跳绳广告
+HOST,qzs.gdtimg.com,天天跳绳广告
+HOST,resource.ad-scope.com.cn,天天跳绳广告
+HOST,rtbcallback.sigmob.cn,天天跳绳广告
+HOST,sdk.1rtb.net,天天跳绳广告
+HOST,sdk.beizi.biz,天天跳绳广告
+HOST,sf3-fe-tos.pglstatp-toutiao.com,天天跳绳广告
+HOST,tmv6.sigmob.cn,天天跳绳广告
+HOST,win.gdt.qq.com,天天跳绳广告
+HOST,adsmind.ugdtimg.com,天天跳绳广告
+
+# 广告 SDK 日志/监控/转化上报域名
+HOST,log-api.pangolin-sdk-toutiao-b.com,天天跳绳广告
+HOST,log-api.pangolin-sdk-toutiao.com,天天跳绳广告
+HOST,mon.zijieapi.com,天天跳绳广告
+HOST,toblog.ctobsnssdk.com,天天跳绳广告
+HOST,toblog.volceapplog.com,天天跳绳广告
