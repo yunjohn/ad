@@ -1,0 +1,45 @@
+# 天天跳绳广告域名拦截
+# 更新时间：2026-03-11
+# 用途：Quantumult X 的 filter 远程资源
+# 说明：仅放明确广告域名，避免误伤主站业务域名
+
+HOST,adservice.sigmob.cn,天天跳绳广告
+HOST,api-access.pangolin-sdk-toutiao.com,天天跳绳广告
+HOST,api-access.pangolin-sdk-toutiao1.com,天天跳绳广告
+HOST,api-htp.beizi.biz,天天跳绳广告
+HOST,bgg.baidu.com,天天跳绳广告
+HOST,cdn.1rtb.com,天天跳绳广告
+HOST,dcv6.sigmob.cn,天天跳绳广告
+HOST,feed-image.baidu.com,天天跳绳广告
+HOST,gromore.pangolin-sdk-toutiao.com,天天跳绳广告
+HOST,i.gtimg.cn,天天跳绳广告
+HOST,log-api.pangolin-sdk-toutiao-b.com,天天跳绳广告
+HOST,log-api.pangolin-sdk-toutiao.com,天天跳绳广告
+HOST,mazu.m.qq.com,天天跳绳广告
+HOST,mi.gdt.qq.com,天天跳绳广告
+HOST,mobads-logs.baidu.com,天天跳绳广告
+HOST,mobads-pre-config.cdn.bcebos.com,天天跳绳广告
+HOST,mobads.baidu.com,天天跳绳广告
+HOST,n.sigmob.cn,天天跳绳广告
+HOST,open.e.kuaishou.cn,天天跳绳广告
+HOST,p2-lm.adukwai.com,天天跳绳广告
+HOST,p26-be-pack-sign.pglstatp-toutiao.com,天天跳绳广告
+HOST,p3-be-pack-sign.pglstatp-toutiao.com,天天跳绳广告
+HOST,p66-ad.adkwai.com,天天跳绳广告
+HOST,pgdt.ugdtimg.com,天天跳绳广告
+HOST,qzs.gdtimg.com,天天跳绳广告
+HOST,rtbcallback.sigmob.cn,天天跳绳广告
+HOST,sdk.1rtb.net,天天跳绳广告
+HOST,sdk.beizi.biz,天天跳绳广告
+HOST,sdk.e.qq.com,天天跳绳广告
+HOST,sdk.zhangyuyidong.cn,天天跳绳广告
+HOST,sdklog.zhangyuyidong.cn,天天跳绳广告
+HOST,sdktmp.hubcloud.com.cn,天天跳绳广告
+HOST,sf3-fe-tos.pglstatp-toutiao.com,天天跳绳广告
+HOST,sf6-fe-tos.pglstatp-toutiao.com,天天跳绳广告
+HOST,tm.sigmob.cn,天天跳绳广告
+HOST,tmv6.sigmob.cn,天天跳绳广告
+HOST,toblog.ctobsnssdk.com,天天跳绳广告
+HOST,toblog.volceapplog.com,天天跳绳广告
+HOST,u-aix-files.oss-cn-zhangjiakou.aliyuncs.com,天天跳绳广告
+HOST,win.gdt.qq.com,天天跳绳广告
