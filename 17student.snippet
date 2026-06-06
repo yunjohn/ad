@@ -1,9 +1,21 @@
-# 17student 去广告重写规则订阅
+# 17student 去广告分流规则订阅 (防断网版)
 # 适用于 Quantumult X
+# 解决原因：SSL Pinning 导致的无法联网问题，无需开启 MITM 解密。
 
-[rewrite_local]
-# 拦截开屏广告配置接口并重写响应
-^https?:\/\/.*\.17(zuoye|yiqi)\.com\/client\/loadwelcomeimg\.api url script-response-body https://raw.githubusercontent.com/yunjohn/ad/main/17student_ad.js
+[filter_local]
+# 屏蔽 穿山甲 / Pangle 广告
+host-keyword, pangle, reject
+host-suffix, byteoversea.com, reject
+host-suffix, pglstatp.com, reject
 
-[mitm]
-hostname = *.17zuoye.com, *.yiqizuoye.com
+# 屏蔽 腾讯优量汇 GDT 广告
+host-suffix, gdt.qq.com, reject
+host-suffix, mi.gdt.qq.com, reject
+
+# 屏蔽 TopOn / Anythink 广告聚合平台
+host-suffix, anythinktech.com, reject
+host-suffix, tracking.anythinktech.com, reject
+
+# 屏蔽 Windmill / Tobid 广告平台
+host-keyword, windmill, reject
+host-keyword, tobid, reject
